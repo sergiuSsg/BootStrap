@@ -6,12 +6,11 @@ html, body{
   font-family: 'Poppins', sans-serif;
   color: #222; /*dark gray*/
 }
-
 .tNav{
   background-color: black;
 }
 .navbar{
-  padding: .8rem;// 1 rem iys 16 px
+  padding: .8rem;
 }
 .navbar-nav{
   padding-right: 20px;
@@ -121,7 +120,6 @@ carousel-inner img{
 .fa-youtube{
   color: red;
 }
-
 .fa-facebook:hover,
 .fa-twitter:hover,
 .fa-google-plus-g:hover,
@@ -150,26 +148,8 @@ hr.light-100{
   margin-bottom: 1rem;
 }
 
-
-
-
-
-
-
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
-
-  }
-@media (max-width: 768px) {
-
-}
-@media (max-width: 576px) {
-
-}
-
-
 /*---Firefox Bug Fix --*/
+
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
@@ -177,7 +157,9 @@ hr.light-100{
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
+
 /*--- Fixed Background Image --*/
+
 figure {
   position: relative;
   width: 100%;
@@ -206,7 +188,9 @@ figure {
           transform: translateZ(0);
   will-change: transform;
 }
+
 /*--- Bootstrap Padding Fix --*/
+
 [class*="col-"] {
     padding: 1rem;
 }
